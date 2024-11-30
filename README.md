@@ -100,5 +100,5 @@ python gen_video.py --hide_event --show_frame --dark
 
 | Default | Fast | Dark |
 |---|---|---|
-| [[Download video]](videos/event_src.mp4) | [[Download video]](videos/evene_fast_src.mp4) | [[Download video]](videos/scene_dark_src.mp4) |
+| [[Download video]](videos/event_src.mp4) | [[Download video]](videos/event_fast_src.mp4) | [[Download video]](videos/event_dark_src.mp4) |
 | ![docs/event_src.jpg](docs/event_src.jpg) | ![docs/event_fast_src.jpg](docs/event_fast_src.jpg) | ![docs/event_dark_src.jpg](docs/event_dark_src.jpg) |
