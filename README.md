@@ -4,8 +4,6 @@ This repository provides a simple script to generate a video to explain how the 
 
 ![screenshot_ppt](docs/screenshot_ppt.jpeg)
 
-You can use the generated video for your presentation to introduce basic concepts of event camera.
-
 ## Requirements
 
 - NumPy
