@@ -85,7 +85,7 @@ python gen_video.py --dark
 [[Download video]](videos/event_dark.mp4)
 ![docs/event_dark.jpg](docs/event_dark.jpg)
 
-Frame only, dark theme.
+### Frame only, dark theme
 
 ```bash
 python gen_video.py --hide_event --show_frame --dark
@@ -94,7 +94,7 @@ python gen_video.py --hide_event --show_frame --dark
 [[Download video]](videos/frame_dark.mp4)
 ![docs/frame_dark.jpg](docs/frame_dark.jpg)
 
-### Event only, fast rotation, dark theme.
+### Event only, fast rotation, dark theme
 
 ```bash
 python gen_video.py --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_duration 0 --reduction_ratio 0.1 --frame_interval 480 --max_frames 2880 --dark
@@ -103,7 +103,7 @@ python gen_video.py --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_
 [[Download video]](videos/event_fast_dark.mp4)
 ![docs/event_fast_dark.jpg](docs/event_fast_dark.jpg)
 
-### Frame only, fast rotation, dark theme.
+### Frame only, fast rotation, dark theme
 
 ```bash
 python gen_video.py --average_frames 20 --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_duration 0 --frame_interval 480 --max_frames 2880 --hide_event --show_frame --dark
@@ -116,7 +116,7 @@ python gen_video.py --average_frames 20 --speed 32 --rotation_duration 36 --rota
 
 | Default | Fast |
 |---|---|
-| [[Download video]](videos/event_src.mp4) | [[Download video]](videos/event_fast_src.mp4) | 
+| [[Download video]](videos/event_src.mp4) | [[Download video]](videos/event_fast_src.mp4) |
 | ![docs/event_src.jpg](docs/event_src.jpg) | ![docs/event_fast_src.jpg](docs/event_fast_src.jpg) |
 
 | Default (dark) | Fast (dark) |
