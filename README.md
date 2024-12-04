@@ -19,7 +19,7 @@ This repository provides a simple script to generate a video to explain how the 
 python gen_video.py 
 ```
 
-[[Download video]](videos/event.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event.mp4)
 ![docs/event.jpg](docs/event.jpg)
 
 ### Frame only
@@ -28,7 +28,7 @@ python gen_video.py
 python gen_video.py --hide_event --show_frame
 ```
 
-[[Download video]](videos/frame.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/frame.mp4)
 ![docs/frame.jpg](docs/frame.jpg)
 
 ### Event only, fast rotation, don't stop rotation
@@ -37,7 +37,7 @@ python gen_video.py --hide_event --show_frame
 python gen_video.py --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_duration 0 --reduction_ratio 0.1 --frame_interval 480 --max_frames 2880  
 ```
 
-[[Download video]](videos/event_fast.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_fast.mp4)
 ![docs/event_fast.jpg](docs/event_fast.jpg)
 
 ### Frame only, fast rotation, don't stop rotation
@@ -46,7 +46,7 @@ python gen_video.py --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_
 python gen_video.py --average_frames 20 --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_duration 0 --frame_interval 480 --max_frames 2880 --hide_event --show_frame
 ```
 
-[[Download video]](videos/frame_fast.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/frame_fast.mp4)
 ![docs/frame_fast.jpg](docs/frame_fast.jpg)
 
 ### Event + Frame
@@ -55,7 +55,7 @@ python gen_video.py --average_frames 20 --speed 32 --rotation_duration 36 --rota
 python gen_video.py --show_frame
 ```
 
-[[Download video]](videos/event_frame.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_frame.mp4)
 ![docs/event_frame.jpg](docs/event_frame.jpg)
 
 ### Event only, camera1
@@ -64,7 +64,7 @@ python gen_video.py --show_frame
 python gen_video.py --camera 1
 ```
 
-[[Download video]](videos/event_camera1.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_camera1.mp4)
 ![docs/event_camera1.jpg](docs/event_camera1.jpg)
 
 ### Event only, camera2
@@ -73,7 +73,7 @@ python gen_video.py --camera 1
 python gen_video.py --camera 2
 ```
 
-[[Download video]](videos/event_camera2.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_camera2.mp4)
 ![docs/event_camera2.jpg](docs/event_camera2.jpg)
 
 ### Event only, dark theme
@@ -82,7 +82,7 @@ python gen_video.py --camera 2
 python gen_video.py --dark
 ```
 
-[[Download video]](videos/event_dark.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_dark.mp4)
 ![docs/event_dark.jpg](docs/event_dark.jpg)
 
 ### Frame only, dark theme
@@ -91,7 +91,7 @@ python gen_video.py --dark
 python gen_video.py --hide_event --show_frame --dark
 ```
 
-[[Download video]](videos/frame_dark.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/frame_dark.mp4)
 ![docs/frame_dark.jpg](docs/frame_dark.jpg)
 
 ### Event only, fast rotation, dark theme
@@ -100,7 +100,7 @@ python gen_video.py --hide_event --show_frame --dark
 python gen_video.py --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_duration 0 --reduction_ratio 0.1 --frame_interval 480 --max_frames 2880 --dark
 ```
 
-[[Download video]](videos/event_fast_dark.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_fast_dark.mp4)
 ![docs/event_fast_dark.jpg](docs/event_fast_dark.jpg)
 
 ### Frame only, fast rotation, dark theme
@@ -109,17 +109,17 @@ python gen_video.py --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_
 python gen_video.py --average_frames 20 --speed 32 --rotation_duration 36 --rotation_speed 2 --stop_duration 0 --frame_interval 480 --max_frames 2880 --hide_event --show_frame --dark
 ```
 
-[[Download video]](videos/frame_fast_dark.mp4)
+[[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/frame_fast_dark.mp4)
 ![docs/frame_fast_dark.jpg](docs/frame_fast_dark.jpg)
 
 ### Scene Video
 
 | Default | Fast |
 |---|---|
-| [[Download video]](videos/event_src.mp4) | [[Download video]](videos/event_fast_src.mp4) |
+| [[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_src.mp4) | [[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_fast_src.mp4) |
 | ![docs/event_src.jpg](docs/event_src.jpg) | ![docs/event_fast_src.jpg](docs/event_fast_src.jpg) |
 
 | Default (dark) | Fast (dark) |
 |---|---|
-| [[Download video]](videos/event_dark_src.mp4) | [[Download video]](videos/event_fast_dark_src.mp4) |
+| [[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_dark_src.mp4) | [[Download video]](https://github.com/elerac/event_camera_explanation_video/raw/refs/heads/main/videos/event_fast_dark_src.mp4) |
 | ![docs/event_dark_src.jpg](docs/event_dark_src.jpg) | ![docs/event_fast_dark_src.jpg](docs/event_fast_dark_src.jpg) |
